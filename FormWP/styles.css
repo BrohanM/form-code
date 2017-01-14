@@ -1,0 +1,76 @@
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	text-shadow: 2px 2px 4px #abc;
+	text-align: center;
+}
+
+form {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+label {
+	display: block;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + .EA1 {
+    display: block;
+    width:50px;
+    height:50px;
+    background:url(east-hamptonSMALL.jpg) no-repeat;
+    cursor:pointer;
+    padding-bottom: 30px;
+    position: relative;
+    left: 60%;
+    bottom: 35px;
+}
+
+
+input[type="checkbox"] + .EA2 {
+    display: block;
+    width:50px;
+    height:50px;
+    background:url(east-hampton2SMALL.jpg) no-repeat;
+    cursor:pointer;
+    padding-bottom: 30px;
+    position: relative;
+    left: 60%;
+    bottom: 35px;
+}
+
+input[type="checkbox"] + .EA3 {
+    display: block;
+    width:50px;
+    height:50px;
+    background:url(east-hampton3SMALL.jpg) no-repeat;
+    cursor:pointer;
+    padding-bottom: 30px;
+    position: relative;
+    left: 60%;
+    bottom: 35px;
+}
+
+input[type="checkbox"]:checked + .EA1 {
+    background:url(east-hamptonSMALLSELECT.png) top no-repeat;
+}
+
+input[type="checkbox"]:checked + .EA2 {
+    background:url(east-hampton2SMALLSELECT.png) top no-repeat;
+}
+
+input[type="checkbox"]:checked + .EA3 {
+    background:url(east-hampton3SMALLSELECT.png) top no-repeat;
+}
+
+
+
+/*div {
+	background-color: #e6e6e6;
+	height: 25px;
+	background: url(east-hamptonSMALL.jpg)no-repeat;
+}*/

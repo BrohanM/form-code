@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>A HTML Form that mimics<br> the one on <a href="http://www.sofasofa.co.uk/fabric-sofas/grosvenor-3-seater-sofa.html">SofaSofa</a></h1>
+    <form method="post" action="action_page.php">
+    	<span>Name:</span><br>
+    	<input type="text" name="name"><br>
+    	<span>Surname:</span><br>
+    	<input type="text" name="lastname"><br>
+    	<span>Email:</span><br>
+    	<input type="email" name="email"><br><br>
+    	<span>Please select which samples you would like</span><br><br><br>
+    	<input type="checkbox" name="Wood1" id="c1">East Hampton 1
+    	<label for="c1" class="EA1"></label>
+    	<input type="checkbox" name="Wood2" id="c2">East Hampton 2
+    	<label for="c2" class="EA2"></label>
+    	<input type="checkbox" name="Wood3" id="c3">East Hampton 3
+    	<label for="c3" class="EA3"></label>
+    	<input type="submit" value="Send" onclick="alert('Request Submitted!')">
+    	<div></div>
+    </form>
+</body>
+</html>
